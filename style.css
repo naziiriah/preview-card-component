@@ -18,27 +18,32 @@ body{
     display: grid;
     grid-template-columns:45% 55%;
     border-radius: 3%;
-    
-
-    
-  
+    padding:0px;
 }
 .write-ups{
+    margin-top: 20px;
     color:rgb(255, 255, 255);   
     
 }
 .write-ups h2{
-    padding:30px 30px 30px 30px;
-    font-weight: bold;
+    padding:30px 30px 40px 30px ;
+    font-weight: bolder;
+    font-size:23px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+}
+.write-ups h4{
+    font-weight: lighter;
+    padding:0 30px 40px 30px;
+    font-size: 15px;
 }
 .write-ups p{
     display: inline;
-    font-size: small;
-    margin-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
+    margin: 20px;
+    padding:15px;
+    font-weight: bolder;
+    align-content: center;
+    justify-self: center;
+
 }
 
 span{
@@ -52,4 +57,5 @@ span{
     border-radius: 3px;
     overflow:hidden;
     height:450px;
+    padding:0px;
 }
